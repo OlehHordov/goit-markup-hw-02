@@ -1,0 +1,71 @@
+:root{
+    --main-text-color:#757575;
+    --title-color:#212121;
+    --hero-color: #FFFFFF;
+    --accent-color:#2196F3;
+
+}
+body{
+    color: var(--title-color);
+    font-family: roboto, sans-serif;
+}
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.logo-link{
+    color:var(--accent-color);
+}
+.logo-accent{
+    color:var(--title-color);
+}
+.list{
+    color:var(--title-color);
+}
+.list .item:hover,
+.list .item:focus{
+    color: var(--accent-color);
+}
+.list .item.current{
+    color:var(--accent-color);
+}
+/* Hero */
+.hero-section{
+    color: var(--hero-color);
+    background-color: #2F303A;
+}
+/* Section */
+.section-title{
+    color:var(--title-color);
+}
+/* Features */
+.futures-list .features-title{
+    color: var(--title-color);
+}
+.features-text{
+    color: #757575;
+}
+/* works-list */
+.works-list{
+    color: var(--title-color);
+}
+/* button */
+.hero-section-btn{
+    color: var(--hero-color);
+    background-color: #2196F3;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+p{
+    margin: 0px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
