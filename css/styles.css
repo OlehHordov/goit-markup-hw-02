@@ -50,7 +50,7 @@ body{
     text-decoration: none;
 }
 .contact-item-mail{
-    color:var(--accent-color);
+    color:var(--main-text-color);
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.14;
@@ -181,7 +181,7 @@ img {
 
     color: var(--hero-color);
 }
-.contacts-list-unit,.contact-item-mail{
+.contacts-list-unit,{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -238,5 +238,5 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    
+
 }
